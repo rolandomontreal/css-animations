@@ -1,0 +1,33 @@
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: relative;
+  padding: 0;
+  margin-bottom: -6px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button svg {
+  transition: all .3s;
+}
+
+.button:hover svg {
+  transform: scale(1.07);
+}
+
+.button title {
+  transition: all .8s;
+}
+
+.title {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FAFF0D;
+  font-weight: 300;
+}
+
