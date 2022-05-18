@@ -4,9 +4,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
+        <title>CSS animations</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,15 +21,17 @@ export default function Home() {
         <div className={styles.buttonsContainer}>
           <TriangleButton 
             title={'SRC'}
+            href='https://github.com'
           />
           <TriangleButton 
             title={'Gallery'}
             rotation={180}
+            href='/gallery'
           />
         </div>
 
         <h4 className={styles.author}>By Jake</h4>
       </main>
-    </div>
+    </>
   );
 }

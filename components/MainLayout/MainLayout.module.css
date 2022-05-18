@@ -1,0 +1,8 @@
+.container {
+  min-height: 100vh;
+  background: conic-gradient(from 180deg at 50% 50%, #0467C2 0deg, #00315F 360deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

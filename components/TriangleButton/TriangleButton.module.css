@@ -1,21 +1,15 @@
 .button {
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  position: relative;
-  padding: 0;
-  margin-bottom: -6px;
+  display: flex;
+  justify-content: center;
 }
 
-.button:hover {
-  cursor: pointer;
-}
-
-.button svg {
+.button svg, .button svg path {
   transition: all .3s;
 }
 
 .button:hover svg {
   transform: scale(1.07);
+  filter: brightness(1.5);
 }
 
 .button title {
@@ -30,4 +24,3 @@
   color: #FAFF0D;
   font-weight: 300;
 }
-
